@@ -12,6 +12,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@videojs/themes": "^1.0.1",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "video.js": "^7.10.2"
@@ -28,7 +30,9 @@
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^26.5.0",
+    "node-sass": "^5.0.0",
     "prettier": "^2.1.2",
+    "sass-loader": "^10.1.0",
     "vue-jest": "^3.0.4"
   }
 }

@@ -1,5 +1,7 @@
 # nuxtjs-video-background
 
+The purpose of this repo is to show an example of a home page with a video background using video.js and nuxt.js.  
+
 ## Build Setup
 
 ```bash

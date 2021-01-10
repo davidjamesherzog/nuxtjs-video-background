@@ -21,29 +21,47 @@ export default {
 };
 </script>
 
-<style scoped>
-header .logo {
-  color: #fff;
-  text-transform: uppercase;
-  cursor: pointer;
+<style lang="scss" scoped>
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    color: $color-brand-white;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url('../assets/images/menu.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+
+    &.active {
+      background: url('../assets/images/close.png');
+      background-repeat: no-repeat;
+      background-size: 25px;
+      background-position: center;
+      cursor: pointer;
+    }
+  }
 }
 
-.toggle {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  background: url('../assets/images/menu.png');
-  background-repeat: no-repeat;
-  background-size: 30px;
-  background-position: center;
-  cursor: pointer;
-}
-
-.toggle.active {
-  background: url('../assets/images/close.png');
-  background-repeat: no-repeat;
-  background-size: 25px;
-  background-position: center;
-  cursor: pointer;
+@media (max-width: 991px) {
+  header {
+    padding: 40px;
+  }
 }
 </style>

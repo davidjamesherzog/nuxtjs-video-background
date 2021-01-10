@@ -3,7 +3,7 @@ import AppHeader from '@/components/AppHeader.vue';
 
 describe('AppHeader', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(AppHeader)
-    expect(wrapper.vm).toBeTruthy()
-  })
-})
+    const wrapper = mount(AppHeader);
+    expect(wrapper.vm).toBeTruthy();
+  });
+});

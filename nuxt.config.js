@@ -5,9 +5,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: '' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -23,11 +23,19 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/style-resources'
   ],
+
+  styleResources: {
+    scss: [
+      // Doc: https://eduardoboucas.github.io/include-media/
+      '~/assets/scss/style-resources.scss'
+    ]
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {}
 }

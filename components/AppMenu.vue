@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .menu {
   position: absolute;
   top: 0;
@@ -22,19 +22,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.menu ul {
-  position: relative;
-}
-.menu ul li {
-  list-style: none;
-}
-.menu ul li a {
-  text-decoration: none;
-  font-size: 24px;
-  color: #111;
-}
-.menu ul li a:hover {
-  color: #03a9f4;
+
+  ul {
+    position: relative;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        font-size: 24px;
+        color: $color-brand-black;
+
+        &:hover {
+          color: $color-brand-blue;
+        }
+      }
+    }
+  }
 }
 </style>
