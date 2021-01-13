@@ -52,7 +52,7 @@ exports[`Index templates is a Vue instance 1`] = `
         href="https://videojs.com/getting-started"
       >
         
-        Explore
+        Get Started
       
       </a>
     </div>
@@ -116,7 +116,7 @@ exports[`Index templates should add active class 1`] = `
         href="https://videojs.com/getting-started"
       >
         
-        Explore
+        Get Started
       
       </a>
     </div>
@@ -180,7 +180,7 @@ exports[`Index templates should not add active class 1`] = `
         href="https://videojs.com/getting-started"
       >
         
-        Explore
+        Get Started
       
       </a>
     </div>
@@ -244,7 +244,7 @@ exports[`Index templates should validate text 1`] = `
         href="https://videojs.com/getting-started"
       >
         
-        Explore
+        Get Started
       
       </a>
     </div>

@@ -18,7 +18,7 @@
           aliquip ex ea commodo consequat.
         </p>
         <a href="https://videojs.com/getting-started" data-index-link>
-          Explore
+          Get Started
         </a>
       </div>
       <social-links />

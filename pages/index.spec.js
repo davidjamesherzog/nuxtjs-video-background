@@ -94,7 +94,7 @@ describe('Index', () => {
       expect(paragraph.exists()).toBeTruthy();
       expect(paragraph.text()).toContain('Lorem ipsum dolor');
       expect(link.exists()).toBeTruthy();
-      expect(link.text()).toContain('Explore');
+      expect(link.text()).toContain('Get Started');
       expect(link.attributes().href).toEqual(
         'https://videojs.com/getting-started'
       );
