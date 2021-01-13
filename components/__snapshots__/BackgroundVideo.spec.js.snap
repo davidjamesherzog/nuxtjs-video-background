@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackgroundVideo templates is a Vue instance 1`] = `
+<video
+  class="video-js vjs-theme-sea"
+  data-background-video=""
+  id="video-player"
+/>
+`;
+
+exports[`BackgroundVideo templates should have video element 1`] = `
+<video
+  class="video-js vjs-theme-sea"
+  data-background-video=""
+  id="video-player"
+/>
+`;

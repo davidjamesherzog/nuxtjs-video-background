@@ -1,5 +1,5 @@
 <template>
-  <div class="overlay"></div>
+  <div class="overlay" data-overlay></div>
 </template>
 
 <style lang="scss" scoped>

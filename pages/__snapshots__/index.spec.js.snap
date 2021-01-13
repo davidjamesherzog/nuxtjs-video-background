@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index templates is a Vue instance 1`] = `
+<div>
+  <section
+    class="showcase"
+    data-index-section=""
+  >
+    <app-header-stub />
+     
+    <span
+      client-only-component-rendered-on-client=""
+    >
+      <background-video-stub
+        src="//vjs.zencdn.net/v/oceans.mp4"
+      />
+    </span>
+     
+    <overlay-stub />
+     
+    <div
+      class="text"
+      data-index-text=""
+    >
+      <h2
+        data-index-title=""
+      >
+        Make your player yours
+      </h2>
+       
+      <h3
+        data-index-subtitle=""
+      >
+        
+        most popular open source HTML5 player framework
+      
+      </h3>
+       
+      <p
+        data-index-paragraph=""
+      >
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.
+      
+      </p>
+       
+      <a
+        data-index-link=""
+        href="https://videojs.com/getting-started"
+      >
+        
+        Explore
+      
+      </a>
+    </div>
+     
+    <social-links-stub />
+  </section>
+   
+  <app-menu-stub />
+</div>
+`;
+
+exports[`Index templates should add active class 1`] = `
+<div>
+  <section
+    class="showcase active"
+    data-index-section=""
+  >
+    <app-header-stub />
+     
+    <span
+      client-only-component-rendered-on-client=""
+    >
+      <background-video-stub
+        src="//vjs.zencdn.net/v/oceans.mp4"
+      />
+    </span>
+     
+    <overlay-stub />
+     
+    <div
+      class="text"
+      data-index-text=""
+    >
+      <h2
+        data-index-title=""
+      >
+        Make your player yours
+      </h2>
+       
+      <h3
+        data-index-subtitle=""
+      >
+        
+        most popular open source HTML5 player framework
+      
+      </h3>
+       
+      <p
+        data-index-paragraph=""
+      >
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.
+      
+      </p>
+       
+      <a
+        data-index-link=""
+        href="https://videojs.com/getting-started"
+      >
+        
+        Explore
+      
+      </a>
+    </div>
+     
+    <social-links-stub />
+  </section>
+   
+  <app-menu-stub />
+</div>
+`;
+
+exports[`Index templates should not add active class 1`] = `
+<div>
+  <section
+    class="showcase"
+    data-index-section=""
+  >
+    <app-header-stub />
+     
+    <span
+      client-only-component-rendered-on-client=""
+    >
+      <background-video-stub
+        src="//vjs.zencdn.net/v/oceans.mp4"
+      />
+    </span>
+     
+    <overlay-stub />
+     
+    <div
+      class="text"
+      data-index-text=""
+    >
+      <h2
+        data-index-title=""
+      >
+        Make your player yours
+      </h2>
+       
+      <h3
+        data-index-subtitle=""
+      >
+        
+        most popular open source HTML5 player framework
+      
+      </h3>
+       
+      <p
+        data-index-paragraph=""
+      >
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.
+      
+      </p>
+       
+      <a
+        data-index-link=""
+        href="https://videojs.com/getting-started"
+      >
+        
+        Explore
+      
+      </a>
+    </div>
+     
+    <social-links-stub />
+  </section>
+   
+  <app-menu-stub />
+</div>
+`;
+
+exports[`Index templates should validate text 1`] = `
+<div>
+  <section
+    class="showcase"
+    data-index-section=""
+  >
+    <app-header-stub />
+     
+    <span
+      client-only-component-rendered-on-client=""
+    >
+      <background-video-stub
+        src="//vjs.zencdn.net/v/oceans.mp4"
+      />
+    </span>
+     
+    <overlay-stub />
+     
+    <div
+      class="text"
+      data-index-text=""
+    >
+      <h2
+        data-index-title=""
+      >
+        Make your player yours
+      </h2>
+       
+      <h3
+        data-index-subtitle=""
+      >
+        
+        most popular open source HTML5 player framework
+      
+      </h3>
+       
+      <p
+        data-index-paragraph=""
+      >
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.
+      
+      </p>
+       
+      <a
+        data-index-link=""
+        href="https://videojs.com/getting-started"
+      >
+        
+        Explore
+      
+      </a>
+    </div>
+     
+    <social-links-stub />
+  </section>
+   
+  <app-menu-stub />
+</div>
+`;

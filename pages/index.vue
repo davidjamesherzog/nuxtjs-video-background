@@ -1,21 +1,25 @@
 <template>
   <div>
-    <section class="showcase" :class="{ active: active }">
+    <section class="showcase" :class="{ active: active }" data-index-section>
       <app-header @menu="toggleMenu" />
       <client-only>
         <background-video src="//vjs.zencdn.net/v/oceans.mp4" />
       </client-only>
       <overlay />
-      <div class="text">
-        <h2>Make your player yours</h2>
-        <h3>most popular open source HTML5 player framework</h3>
-        <p>
+      <div class="text" data-index-text>
+        <h2 data-index-title>Make your player yours</h2>
+        <h3 data-index-subtitle>
+          most popular open source HTML5 player framework
+        </h3>
+        <p data-index-paragraph>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <a href="https://videojs.com/getting-started">Explore</a>
+        <a href="https://videojs.com/getting-started" data-index-link>
+          Explore
+        </a>
       </div>
       <social-links />
     </section>
@@ -24,7 +28,20 @@
 </template>
 
 <script>
+import AppHeader from '@/components/AppHeader.vue';
+import AppMenu from '@/components/AppMenu.vue';
+import BackgroundVideo from '@/components/BackgroundVideo.vue';
+import Overlay from '@/components/Overlay.vue';
+import SocialLinks from '@/components/SocialLinks.vue';
+
 export default {
+  components: {
+    AppHeader,
+    AppMenu,
+    BackgroundVideo,
+    Overlay,
+    SocialLinks
+  },
   data() {
     return {
       active: false

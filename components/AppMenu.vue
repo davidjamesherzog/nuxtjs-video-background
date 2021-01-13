@@ -1,13 +1,25 @@
 <template>
-  <div class="menu">
+  <div class="menu" data-app-menu>
     <ul>
-      <li><a href="https://videojs.com/getting-started">Get Started</a></li>
       <li>
-        <a href="https://videojs.com/getting-started/#customize">Customize</a>
+        <a href="https://videojs.com/getting-started" data-app-menu-get-started
+          >Get Started</a
+        >
       </li>
-      <li><a href="https://docs.videojs.com/">Docs</a></li>
-      <li><a href="https://videojs.com/blog">Blog</a></li>
-      <li><a href="https://github.com/videojs/video.js">Github</a></li>
+      <li>
+        <a
+          href="https://videojs.com/getting-started/#customize"
+          data-app-menu-customize
+          >Customize</a
+        >
+      </li>
+      <li><a href="https://docs.videojs.com/" data-app-menu-docs>Docs</a></li>
+      <li><a href="https://videojs.com/blog" data-app-menu-blog>Blog</a></li>
+      <li>
+        <a href="https://github.com/videojs/video.js" data-app-menu-github
+          >Github</a
+        >
+      </li>
     </ul>
   </div>
 </template>

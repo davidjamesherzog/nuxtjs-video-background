@@ -1,7 +1,12 @@
 <template>
   <header>
-    <h2 class="logo">video.js</h2>
-    <div class="toggle" :class="{ active: active }" @click="toggleMenu"></div>
+    <h2 class="logo" data-app-header-logo>video.js</h2>
+    <div
+      class="toggle"
+      :class="{ active: active }"
+      data-app-header-toggle
+      @click="toggleMenu"
+    ></div>
   </header>
 </template>
 

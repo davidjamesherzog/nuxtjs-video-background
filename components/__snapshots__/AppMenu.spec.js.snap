@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMenu templates is a Vue instance 1`] = `
+<div
+  class="menu"
+  data-app-menu=""
+>
+  <ul>
+    <li>
+      <a
+        data-app-menu-get-started=""
+        href="https://videojs.com/getting-started"
+      >
+        Get Started
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-customize=""
+        href="https://videojs.com/getting-started/#customize"
+      >
+        Customize
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-docs=""
+        href="https://docs.videojs.com/"
+      >
+        Docs
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-blog=""
+        href="https://videojs.com/blog"
+      >
+        Blog
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-github=""
+        href="https://github.com/videojs/video.js"
+      >
+        Github
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`AppMenu templates should create menu 1`] = `
+<div
+  class="menu"
+  data-app-menu=""
+>
+  <ul>
+    <li>
+      <a
+        data-app-menu-get-started=""
+        href="https://videojs.com/getting-started"
+      >
+        Get Started
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-customize=""
+        href="https://videojs.com/getting-started/#customize"
+      >
+        Customize
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-docs=""
+        href="https://docs.videojs.com/"
+      >
+        Docs
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-blog=""
+        href="https://videojs.com/blog"
+      >
+        Blog
+      </a>
+    </li>
+     
+    <li>
+      <a
+        data-app-menu-github=""
+        href="https://github.com/videojs/video.js"
+      >
+        Github
+      </a>
+    </li>
+  </ul>
+</div>
+`;

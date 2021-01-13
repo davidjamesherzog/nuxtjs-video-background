@@ -1,15 +1,21 @@
 <template>
-  <ul class="social">
+  <ul class="social" data-social-links>
     <li>
-      <a href="#"><img src="~/assets/images/facebook.png" /></a>
+      <a href="#" data-social-links-facebook
+        ><img src="~/assets/images/facebook.png" data-social-links-facebook-img
+      /></a>
     </li>
     <li>
-      <a href="https://twitter.com/@videojs">
-        <img src="~/assets/images/twitter.png" />
+      <a href="https://twitter.com/@videojs" data-social-links-twitter>
+        <img src="~/assets/images/twitter.png" data-social-links-twitter-img />
       </a>
     </li>
     <li>
-      <a href="#"><img src="~/assets/images/instagram.png" /></a>
+      <a href="#" data-social-links-instagram
+        ><img
+          src="~/assets/images/instagram.png"
+          data-social-links-instagram-img
+      /></a>
     </li>
   </ul>
 </template>

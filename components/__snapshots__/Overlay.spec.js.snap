@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overlay templates is a Vue instance 1`] = `
+<div
+  class="overlay"
+  data-overlay=""
+/>
+`;
+
+exports[`Overlay templates should create overlay 1`] = `
+<div
+  class="overlay"
+  data-overlay=""
+/>
+`;

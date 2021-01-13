@@ -1,5 +1,9 @@
 <template>
-  <video id="video-player" class="video-js vjs-theme-sea" />
+  <video
+    id="video-player"
+    class="video-js vjs-theme-sea"
+    data-background-video
+  />
 </template>
 
 <script>

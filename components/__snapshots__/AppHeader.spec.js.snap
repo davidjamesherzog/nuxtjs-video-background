@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader templates is a Vue instance 1`] = `
+<header>
+  <h2
+    class="logo"
+    data-app-header-logo=""
+  >
+    video.js
+  </h2>
+   
+  <div
+    class="toggle"
+    data-app-header-toggle=""
+  />
+</header>
+`;
+
+exports[`AppHeader templates should add active class 1`] = `
+<header>
+  <h2
+    class="logo"
+    data-app-header-logo=""
+  >
+    video.js
+  </h2>
+   
+  <div
+    class="toggle active"
+    data-app-header-toggle=""
+  />
+</header>
+`;
+
+exports[`AppHeader templates should not add active class 1`] = `
+<header>
+  <h2
+    class="logo"
+    data-app-header-logo=""
+  >
+    video.js
+  </h2>
+   
+  <div
+    class="toggle"
+    data-app-header-toggle=""
+  />
+</header>
+`;

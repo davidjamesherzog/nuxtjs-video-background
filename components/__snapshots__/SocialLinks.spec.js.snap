@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialLinks templates is a Vue instance 1`] = `
+<ul
+  class="social"
+  data-social-links=""
+>
+  <li>
+    <a
+      data-social-links-facebook=""
+      href="#"
+    >
+      <img
+        data-social-links-facebook-img=""
+        src="~/assets/images/facebook.png"
+      />
+    </a>
+  </li>
+   
+  <li>
+    <a
+      data-social-links-twitter=""
+      href="https://twitter.com/@videojs"
+    >
+      <img
+        data-social-links-twitter-img=""
+        src="~/assets/images/twitter.png"
+      />
+    </a>
+  </li>
+   
+  <li>
+    <a
+      data-social-links-instagram=""
+      href="#"
+    >
+      <img
+        data-social-links-instagram-img=""
+        src="~/assets/images/instagram.png"
+      />
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`SocialLinks templates should create menu 1`] = `
+<ul
+  class="social"
+  data-social-links=""
+>
+  <li>
+    <a
+      data-social-links-facebook=""
+      href="#"
+    >
+      <img
+        data-social-links-facebook-img=""
+        src="~/assets/images/facebook.png"
+      />
+    </a>
+  </li>
+   
+  <li>
+    <a
+      data-social-links-twitter=""
+      href="https://twitter.com/@videojs"
+    >
+      <img
+        data-social-links-twitter-img=""
+        src="~/assets/images/twitter.png"
+      />
+    </a>
+  </li>
+   
+  <li>
+    <a
+      data-social-links-instagram=""
+      href="#"
+    >
+      <img
+        data-social-links-instagram-img=""
+        src="~/assets/images/instagram.png"
+      />
+    </a>
+  </li>
+</ul>
+`;
