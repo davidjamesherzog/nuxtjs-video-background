@@ -17,9 +17,7 @@
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <a href="https://videojs.com/getting-started" data-index-link>
-          Get Started
-        </a>
+        <a href="http://localhost:3000/video" data-index-link> Get Started </a>
       </div>
       <social-links />
     </section>
