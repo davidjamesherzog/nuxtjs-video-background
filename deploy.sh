@@ -13,7 +13,7 @@ cp -R dist/ docs/
 
 # git init
 git add -A
-git commit -m 'deploy static generated site'
+git commit -m 'deploy static generated site with fixed root'
 
 # push to github
 git push -u origin main
