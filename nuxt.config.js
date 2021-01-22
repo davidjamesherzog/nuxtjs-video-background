@@ -1,4 +1,6 @@
 export default {
+  target: 'static',
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'nuxtjs-video-background',
@@ -11,7 +13,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: ['@/assets/scss/_globals.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -22,8 +24,7 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/eslint-module'
   ],
 
   styleResources: {
@@ -34,8 +35,8 @@ export default {
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: ['@nuxtjs/style-resources'],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {}
-}
+};
