@@ -8,13 +8,9 @@ exports[`Index templates is a Vue instance 1`] = `
   >
     <app-header-stub />
      
-    <span
-      client-only-component-rendered-on-client=""
-    >
-      <background-video-stub
-        src="//vjs.zencdn.net/v/oceans.mp4"
-      />
-    </span>
+    <background-video-stub
+      src="//vjs.zencdn.net/v/oceans.mp4"
+    />
      
     <overlay-stub />
      
@@ -72,13 +68,9 @@ exports[`Index templates should add active class 1`] = `
   >
     <app-header-stub />
      
-    <span
-      client-only-component-rendered-on-client=""
-    >
-      <background-video-stub
-        src="//vjs.zencdn.net/v/oceans.mp4"
-      />
-    </span>
+    <background-video-stub
+      src="//vjs.zencdn.net/v/oceans.mp4"
+    />
      
     <overlay-stub />
      
@@ -136,13 +128,9 @@ exports[`Index templates should not add active class 1`] = `
   >
     <app-header-stub />
      
-    <span
-      client-only-component-rendered-on-client=""
-    >
-      <background-video-stub
-        src="//vjs.zencdn.net/v/oceans.mp4"
-      />
-    </span>
+    <background-video-stub
+      src="//vjs.zencdn.net/v/oceans.mp4"
+    />
      
     <overlay-stub />
      
@@ -200,13 +188,9 @@ exports[`Index templates should validate text 1`] = `
   >
     <app-header-stub />
      
-    <span
-      client-only-component-rendered-on-client=""
-    >
-      <background-video-stub
-        src="//vjs.zencdn.net/v/oceans.mp4"
-      />
-    </span>
+    <background-video-stub
+      src="//vjs.zencdn.net/v/oceans.mp4"
+    />
      
     <overlay-stub />
      

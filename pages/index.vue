@@ -2,9 +2,7 @@
   <div>
     <section class="showcase" :class="{ active: active }" data-index-section>
       <app-header @menu="toggleMenu" />
-      <client-only>
-        <background-video src="//vjs.zencdn.net/v/oceans.mp4" />
-      </client-only>
+      <background-video src="//vjs.zencdn.net/v/oceans.mp4" />
       <overlay />
       <div class="text" data-index-text>
         <h2 data-index-title>Make your player yours</h2>
